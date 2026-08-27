@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dualbeltindustrial | Montajes de Bandas Transportadoras</title>
+    <style>
+        :root {
+            --primary: #003087;
+            --secondary: #e30613;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo-main {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-main img {
+            height: 65px;
+            border-radius: 12px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 1.8rem;
+            align-items: center;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://plain-weur-prod-public.komododecks.com/202607/17/q8QbV7NgFGsKDBWiKoBv/image.jpg') center/cover no-repeat;
+            color: white;
+            padding: 100px 20px 90px;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; }
+        .brands {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            padding: 30px 20px;
+            background: #f8f9fa;
+        }
+        .brand-logo {
+            height: 85px;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+            border-radius: 12px;
+            padding: 8px;
+            background: white;
+        }
+        section {
+            padding: 70px 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.3rem;
+            margin-bottom: 2.5rem;
+            color: var(--primary);
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.8rem;
+        }
+        .service-card {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .fleet {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .fleet img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .contact-info {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 2.5rem;
+        }
+        .btn-contact {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--secondary);
+            color: white;
+            padding: 13px 26px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px;
+            transition: all 0.3s;
+        }
+        .btn-contact:hover {
+            background: #c4000f;
+            transform: scale(1.05);
+        }
+        .whatsapp { background: #25D366; }
+        footer {
+            background: #111;
+            color: #ddd;
+            text-align: center;
+            padding: 2.5rem 20px;
+        }
+        @media (max-width: 768px) {
+            .nav-links { gap: 1rem; font-size: 0.95rem; }
+            .hero h1 { font-size: 2.3rem; }
+            .brand-logo { height: 70px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-main">
+                <img src="https://plain-weur-prod-public.komododecks.com/202607/14/q41hQDTw4jASXZw7SD0F/image.jpg" alt="Dualbelt">
+                <div>
+                    <strong style="font-size: 1.12rem; color: var(--primary);">DUALBELTINDUSTRIAL</strong><br>
+                    <small style="font-size: 0.85rem;">Montajes de Bandas Transportadoras</small>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#marcas">Marcas</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Especialistas en Bandas Transportadoras</h1>
+        <p>Servicio técnico industrial 24/7 • Delegación Norte</p>
+        <div style="margin-top: 1.8rem;">
+            <a href="tel:+34611985194" class="btn-contact">📞 Llamar Ahora</a>
+            <a href="https://wa.me/34611985194" target="_blank" class="btn-contact whatsapp">💬 WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- MARCAS -->
+    <div class="brands" id="marcas">
+        <img src="https://plain-weur-prod-public.komododecks.com/202607/14/q41hQDTw4jASXZw7SD0F/image.jpg" alt="RIGALLI" class="brand-logo">
+        <img src="https://plain-weur-prod-public.komododecks.com/202607/14/zO7N8gI30VB635VGaZsD/image.jpg" alt="VA Rubber" class="brand-logo">
+        <img src="https://plain-weur-prod-public.komododecks.com/202607/14/7NsIjinGNVuFuYbLyug0/image.jpg" alt="MONARK" class="brand-logo">
+    </div>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Bandas Transportadoras</h3>
+                <p>PVC, PU y Caucho</p>
+            </div>
+            <div class="service-card">
+                <h3>Empalmes</h3>
+                <p>En frío y en caliente</p>
+            </div>
+            <div class="service-card">
+                <h3>Alineación y Mantenimiento</h3>
+                <p>Preventivo y correctivo</p>
+            </div>
+            <div class="service-card">
+                <h3>Servicio Técnico 24/7</h3>
+                <p>Disponibilidad total</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-info">
+        <h2>Contacto</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+            <div>
+                <h3>📍 Ubicación</h3>
+                <p><strong>DUALBELTINDUSTRIAL</strong><br>
+                Nave Santecilla nº 5B<br>
+                09580 Valle de Mena<br>
+                Burgos · España</p>
+            </div>
+            <div>
+                <h3>📞 Teléfono / WhatsApp</h3>
+                <p><a href="tel:+34611985194" style="color:var(--secondary); font-size:1.3rem; font-weight:bold;">+34 611 985 194</a></p>
+            </div>
+            <div>
+                <h3>🌐 Web</h3>
+                <p><a href="https://www.dualbeltindustrial.com" target="_blank">www.dualbeltindustrial.com</a></p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+            <a href="tel:+34611985194" class="btn-contact">📞 Llamar ahora</a>
+            <a href="https://wa.me/34611985194" target="_blank" class="btn-contact whatsapp">💬 WhatsApp</a>
+            <a href="mailto:info@dualbelt247.com" class="btn-contact">📧 Solicitar Presupuesto</a>
+            <a href="https://maps.google.com/?q=Nave+Santecilla+5B+Valle+de+Mena+Burgos" target="_blank" class="btn-contact">📍 Cómo llegar</a>
+        </div>
+    </section>
+
+    <!-- NUESTRA FLOTA AL FINAL -->
+    <section>
+        <h2 style="text-align:center;">Nuestra Flota</h2>
+        <div class="fleet">
+            <img src="https://plain-weur-prod-public.komododecks.com/202607/14/q41hQDTw4jASXZw7SD0F/image.jpg" alt="Furgoneta Dualbelt">
+            <img src="https://plain-weur-prod-public.komododecks.com/202607/17/e3SUS5fu6gdMU13SSb8V/image.jpg" alt="Furgoneta Dualbelt">
+            <img src="https://plain-weur-prod-public.komododecks.com/202607/17/cCz6DqjQ3NmGsqnituAb/image.jpg" alt="Furgoneta Dualbelt">
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>DUALBELTINDUSTRIAL</strong> • Montajes de Bandas Transportadoras • Delegación Norte RIGALLI</p>
+        <p>© 2026 Todos los derechos reservados • Servicio Industrial 24/7</p>
+    </footer>
+</body>
+</html>
